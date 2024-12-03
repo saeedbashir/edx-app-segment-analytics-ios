@@ -1,0 +1,12 @@
+# This file records information about this repo. Its use is described in OEP-55:
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'edx-app-segment-analytics-ios'
+  annotations:
+    edxmarketplace/release: "main"
+spec:
+  owner: group:axinite-mobile
+  type: 'mobile'
+  lifecycle: 'production'
