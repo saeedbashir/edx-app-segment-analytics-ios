@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/openedx/openedx-app-foundation-ios.git", from: "1.0.1"),
+        .package(url: "https://github.com/openedx/openedx-app-foundation-ios.git", from: "1.0.0"),
         .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins", from: "0.57.0"),
         .package(url: "https://github.com/segmentio/analytics-swift.git", from: "1.5.3"),
         .package(url: "https://github.com/segment-integrations/analytics-swift-firebase", from: "1.3.5"),
